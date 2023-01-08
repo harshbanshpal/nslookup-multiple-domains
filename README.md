@@ -4,6 +4,9 @@ Here is a script that will perform an nslookup for each domain listed in a text 
 # Command
 
 git clone https://github.com/harshbanshpal/nslookup-multiple-domains
+
 cd nslookup-multiple-domains
+
 chmod +x nslookup.sh
+
 ./nslookup.sh domains.txt
