@@ -9,4 +9,6 @@ cd nslookup-multiple-domains
 
 chmod +x nslookup.sh
 
-./nslookup.sh domains.txt
+./nslookup.sh file.txt
+
+It will read the list of domains from file.txt and perform an nslookup for each one.
