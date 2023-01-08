@@ -4,4 +4,4 @@
 while read line; do
   # Perform the nslookup
   nslookup "$line"
-done < output.txt
+done < file.txt
